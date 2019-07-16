@@ -1,0 +1,70 @@
+li.player {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+  }
+  
+  li.player p {
+    flex: 1;
+    padding: 12px 24px;
+    font-size: 150%;
+  }
+  
+  li.player p.name {
+    font-weight: bold;
+  }
+  
+  li.player p.score {
+    max-width: 50px;
+  }
+  
+  li.player button.plus-button {
+    flex: 1;
+    border: 1px solid #ccc;
+    font-size: 150%;
+    margin: 12px;
+    cursor: pointer;
+    max-width: 50px;
+  }
+  
+  li.player button.plus-button:hover {
+    background-color: #eee;
+  }
+
+  .add-player {
+    width: 500px;
+    margin: 30px auto;
+    display: flex;
+  }
+  
+  .add-player form {
+    flex: 1;
+    display: flex;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgba(0,0,0, 0.2);
+  }
+  
+  .add-player label {
+    flex: 1;
+  }
+  
+  .add-player input {
+    flex: 1;
+    font-size: 150%;
+    border: 1px solid #ccc;
+    padding: 10px 5px;
+  }
+  
+  .add-player input[type=text] {
+    max-width: 300px;
+  }
+  
+  .add-player input[type=submit] {
+    align-self: flex-end;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 10px;
+  }
